@@ -1,0 +1,15 @@
+spin_version = "1"
+authors = ["Hacken Tao <hacken@unrival.gg>"]
+description = ""
+name = "axum-on-spin"
+trigger = { type = "http", base = "/" }
+version = "0.1.0"
+
+[[component]]
+id = "axum-on-spin"
+source = "target/wasm32-wasi/release/axum_on_spin.wasm"
+key_value_stores = ["default"]
+[component.trigger]
+route = "/..."
+[component.build]
+command = "cargo build --target wasm32-wasi --release"
