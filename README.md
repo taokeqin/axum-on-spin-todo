@@ -2,15 +2,13 @@
 
 To put it simple, use Axum framework to write web application, but hook it into Spin framework to let it run in a serverless/wasm way.
 
-The axum wasm code learn from
-https://github.com/tokio-rs/axum/tree/main/examples/simple-router-wasm
+The axum wasm code learn from example: [wasm](https://github.com/tokio-rs/axum/tree/main/examples/simple-router-wasm)
 
-The todo application is a copy from axum repo.
-https://github.com/tokio-rs/axum/tree/main/examples/todos
+The todo application is a copy and changed based on axum repo: [todos](https://github.com/tokio-rs/axum/tree/main/examples/todos)
 
 ## Why ?
 
-At EightFish team, we we development our base application based on Spin, at the same time we have a changed version of sapper being used.
+At [EightFish](https://github.com/eightfish-org/eightfish) team, we we development our base application based on Spin, at the same time we have a changed version of sapper being used.
 This repo is an output of we were trying to find a full web framework to be used on Spin.
 
 ## Getting started
